@@ -1,0 +1,25 @@
+###
+GET {{http}}/api/home-butler/mybank/bank
+
+###
+GET {{http}}/api/home-butler/mybank/bank/3
+
+###
+POST {{http}}/api/home-butler/mybank/bank
+Content-Type: application/json
+
+{
+    "name": null
+}
+
+###
+DELETE {{http}}/api/home-butler/mybank/bank/4
+
+###
+PUT {{http}}/api/home-butler/mybank/bank
+Content-Type: application/json
+
+{
+  "id": 3,
+  "name": "SOCIETE GENERALE"
+}
